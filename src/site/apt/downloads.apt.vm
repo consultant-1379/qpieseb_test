@@ -1,0 +1,27 @@
+	------
+	BPS Downloads
+	------
+
+BPS Downloads
+
+ Here is the information to help you to download the release as per your requirement.
+ 	
+ 	BPS follows the following versioning strategy <<<MAJOR.MINOR.PATCH>>>:
+
+	 * <<<MAJOR>>> version when API level changes are introduced, which will cause incompatible with previous release, and
+	
+	 * <<<MINOR>>> version when new functionality is added in a backwards-compatible manner, and
+
+	 * <<<PATCH>>> version when bug fixed and make as backwards-compatible.
+
+ 
+ Current latest and stable <<<version ${project.version}>>> can be download from our nexus repo {{{https://arm1s11-eiffel004.eiffel.gic.ericsson.se:8443/nexus/content/groups/aia-repositories/com/ericsson/component/aia/bps/service/ } here }}
+ 
+ 
+ Release Notes
+
+	Manually generated, may be outdated
+  
+ 	*1.0.4 (MM/DD/YY)  
+ 		
+ 			BPS refactored to support SPI.

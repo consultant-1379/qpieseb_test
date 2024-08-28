@@ -1,0 +1,29 @@
+	------
+	The Beam Processing Service
+	------
+
+Basic Component of <B>eam <P>rocessing <S>ervice <<(BPS)>>
+
+	Simplest form of BPS pipeline can be depicted as follow
+
+[./images/bpsFlow.JPG]
+	
+	BPS pipeline has three important aspect <<<multiple input data sources>>> , <<<steps>>> <( current implementation support single step only)> and <<<multiple output data sinks>>>.
+
+What is Pipe ?
+
+	 	A pipeline represents a data processing job. You build a simple pipeline based on flow xml supported by BPS. \
+	 	A pipeline consists of a set of operations that can read a source of input data, transform that data, and write out the resulting output.\ 
+	 	
+what is Data Source ?	
+	
+		Data source represent the various sources which are feed to the pipeline as input in order to carry-out various operation on it.
+
+what is Step?			
+	
+		Step is a logical operation that can be applied on input in order to carry-out specific transformation or manipulating on input data in order to obtained desired output .  
+
+what is Data Sink?				
+
+		Data sink are the final destination where processed/transformed data needs to be write.
+				
